@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Clocks extends Component {
+class Selapsed extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -24,4 +24,4 @@ seconds have elapsed since mounting : {this.state.digit}
     }
 }
  
-export default Clocks;
+export default Selapsed;

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import Clocks from "./components/Clocks";
+import Selapsed from "./components/Selapsed";
 import Profiles from "./components/profiles";
-import Clock from "./components/Timing";
+import Clock from "./components/Clock";
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
       <div>
          <Clock />
         <Profiles />
-        <Clocks />
+        <Selapsed />
        
         
       </div>
