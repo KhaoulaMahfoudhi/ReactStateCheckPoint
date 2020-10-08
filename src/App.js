@@ -1,20 +1,21 @@
 import React, { Component } from "react";
-import './App.css';
-import IntervalExample from './components/time';
-import Profiles from './components/profiles';
+import "./App.css";
+import Clocks from "./components/Clocks";
+import Profiles from "./components/profiles";
+import Clock from "./components/Timing";
+
 class App extends Component {
-  
-    render(){
-  return (
-     <div>
- <Profiles />
- <IntervalExample/>
-     </div>
- 
-     
+  render() {
+    return (
+      <div>
+         <Clock />
+        <Profiles />
+        <Clocks />
+       
+        
+      </div>
+    );
+  }
+}
 
-  ) 
-  }}
-
-
-export default App
+export default App;

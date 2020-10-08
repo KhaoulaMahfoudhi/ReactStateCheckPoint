@@ -18,6 +18,7 @@ class Profiles extends Component {
       
         const { ShowProfile} = this.state;
         this.setState(  {ShowProfile : !ShowProfile})
+        
       
   }
 
